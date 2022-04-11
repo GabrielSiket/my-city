@@ -4,32 +4,29 @@
     margin: 0;
     padding: 0;
     border: none;
+    text-decoration: none;
 }
 
 body {
     font-family: 'Readex Pro', sans-serif;
-    font-weight: bold;
-    color: #00BD62;
+    font-weight: 300;
 }
 
 /* logo */
 
 #logo {
-    font-family: 'Lavishly Yours', cursive, sans-serif;
     color: #FF6917;
+    background-color: whitesmoke;
     font-size: 300%;
-    float: none;
     text-align: center;
+    float: none;
 }
 
 /* headings */
 
-h1,
-h2 {
+h1, h2 {
     font-family: 'Lavishly Yours', cursive, sans-serif;
-    text-transform: capitalize;
     letter-spacing: 5px;
-    color: #252525;
 }
 
 /* navigation */
@@ -39,19 +36,27 @@ h2 {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #666;
+    background-color: whitesmoke;
 }
 
 #navigation li {
     float: left;
     width: 25%;
     text-align: center;
-  }
+}
 
-  #navigation a {
+#navigation a {
     display: block;
-    color: white;
+    color: #FF6917;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+    font-family: 'Lavishly Yours', cursive, sans-serif;
+    font-size: 250%;
+}
+
+#navigation a:hover {
+    color: #00BD62;
+    transition: 500ms linear;
+    transform: scale(1.5);
+}
