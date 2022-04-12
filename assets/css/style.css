@@ -24,7 +24,7 @@ body {
 
 /* headings */
 
-h1, h2 {
+h1 {
     font-family: 'Lavishly Yours', cursive, sans-serif;
     letter-spacing: 5px;
 }
@@ -61,11 +61,38 @@ h1, h2 {
     transform: scale(1.5);
 }
 
-/* main image*/
+/* main image and cover text*/
 
-#main-image {
+#main-image-text {
     height: 600px;
     width: 100%;
-    background: url(../images/italian-cuisine-2378729_1920.jpg);
+    overflow: hidden;
+    position: relative;
+}
+
+#image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/italian-cuisine-2378729_1920.jpg) no-repeat center center;
     background-size: cover;
 }
+
+#cover-text {
+    font-size: 250%;
+    font-family: 'Lavishly Yours', cursive, sans-serif;
+    letter-spacing: 4px;
+    top: 50px;
+    left: 50px;
+    position: absolute;
+}
+
+#cover-text > h3 {
+    font-size: 150%;
+    font-family: 'Lavishly Yours', cursive, sans-serif;
+    letter-spacing: 5px;
+    top: 100px;
+    right: 50px;
+    position: absolute;
+
+}
+
