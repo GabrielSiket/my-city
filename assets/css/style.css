@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Anek+Malayalam:wght@200&family=Updock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200&family=Updock&display=swap');
 
 * {
     margin: 0;
@@ -15,12 +15,12 @@ body {
 /* logo */
 
 #logo {
-    color: #FF6917;
-    background-color: whitesmoke;
+    color: #004D73;
+    background-color: #FF6917;
     font-size: 300%;
     text-align: center;
     float: none;
-    font-family: 'Updock', cursive;
+    font-family: 'Updock', cursive, sans-serif;
 }
 
 /* headings */
@@ -34,7 +34,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: whitesmoke;
+    background-color: #FF6917;
 }
 
 #navigation li {
@@ -45,18 +45,19 @@ body {
 
 #navigation a {
     display: block;
-    color: #FF6917;
+    color: #004D73;
     text-align: center;
-    padding: 14px 16px;
+    padding: 5px;
     text-decoration: none;
-    font-family: 'Lavishly Yours', cursive, sans-serif;
-    font-size: 250%;
+    font-family: 'Updock', cursive, sans-serif;
+    font-size: 200%;
+    font-weight: bold;
 }
 
 #navigation a:hover {
-    color: #00BD62;
+    color: #22351B;
     transition: 500ms linear;
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 
 /* main image and cover text*/
