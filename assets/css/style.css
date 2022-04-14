@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Readex+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Anek+Malayalam:wght@200&family=Updock&display=swap');
 
 * {
     margin: 0;
@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: 'Readex Pro', sans-serif;
+    font-family: 'Anek Malayalam', sans-serif;
     font-weight: 300;
 }
 
@@ -20,14 +20,12 @@ body {
     font-size: 300%;
     text-align: center;
     float: none;
+    font-family: 'Updock', cursive;
 }
 
 /* headings */
 
-h1 {
-    font-family: 'Lavishly Yours', cursive, sans-serif;
-    letter-spacing: 5px;
-}
+
 
 /* navigation */
 
@@ -75,23 +73,55 @@ h1 {
     width: 100%;
     background: url(../images/italian-cuisine-2378729_1920.jpg) no-repeat center center;
     background-size: cover;
+    
 }
 
 #cover-text {
     font-size: 250%;
-    font-family: 'Lavishly Yours', cursive, sans-serif;
+    font-family: 'Updock', cursive, sans-serif;
     letter-spacing: 4px;
     top: 50px;
     left: 50px;
     position: absolute;
+    background-color: rgba(245, 245, 245, 0.6);
 }
 
 #cover-text > h3 {
     font-size: 150%;
-    font-family: 'Lavishly Yours', cursive, sans-serif;
+    font-family: 'Updock', cursive, sans-serif;
     letter-spacing: 5px;
     top: 100px;
     right: 50px;
     position: absolute;
+    background-color: rgba(245, 245, 245, 0.6);
+}
+
+/* reasons */
+
+#reasons {
+
+}
+
+/* footer */
+
+footer {
+    height: 50px;
+}
+
+.social-networks {
+    text-align: center;
+    background-color:#FF6917 ;
+    
+}
+
+.social-networks > li {
+    display: inline;
+    
+}
+
+.social-networks i {
+    font-size: 150%;
+    margin: 2%;
+    color: #004D73;
 }
 
