@@ -1,6 +1,6 @@
 # The Sun Kissed Paradise
 
-## We offer most trendy and fast-growing cuisine concept focused on longevity – with mostly plant based menu and a using principles of Blue Zones longevity, Nordic and Mediterranean diet. Concept is perfectly suited for people interested in health-longevity, fitness, vegan, vegetarian, organic, sustainable, green, keto food.
+## We offer most trendy and fast-growing cuisine concept focused on longevity – with mostly plant based menu and using principles of Blue Zones longevity, Nordic and Mediterranean diet. Concept is perfectly suited for people interested in health-longevity, fitness, vegan, vegetarian, organic, sustainable, green, keto food.
 
 ## Feautures
 
