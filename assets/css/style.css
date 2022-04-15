@@ -9,14 +9,15 @@
 
 body {
     font-family: 'Anek Malayalam', sans-serif;
-    font-weight: 300;
+    font-weight: 300px;
+    background-color: #CEF6FF;
+    
 }
 
 /* logo */
 
 #logo {
     color: #004D73;
-    background-color: #FF6917;
     font-size: 300%;
     text-align: center;
     float: none;
@@ -34,7 +35,6 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #FF6917;
 }
 
 #navigation li {
@@ -55,7 +55,7 @@ body {
 }
 
 #navigation a:hover {
-    color: #22351B;
+    color: #FF6E26;
     transition: 500ms linear;
     transform: scale(1.1);
 }
@@ -84,7 +84,7 @@ body {
     top: 50px;
     left: 50px;
     position: absolute;
-    background-color: rgba(245, 245, 245, 0.6);
+    background-color: rgba(206, 246, 255, 0.6);
 }
 
 #cover-text > h3 {
@@ -94,35 +94,59 @@ body {
     top: 100px;
     right: 50px;
     position: absolute;
-    background-color: rgba(245, 245, 245, 0.6);
+    background-color: rgba(206, 246, 255, 0.6);
 }
 
 /* reasons */
 
 #reasons {
+    height: 600px;
 
+}
+
+#reason-one {
+    height: 120px;
+    width: 75%;
+    float: left;
+}
+
+#img-one {
+    height: 120px;
+    width: 25%;
+    float: right;
+    background: url(../images/healthy-teeth.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+hr {
+    border-top: 3px solid #FF6917;
+    width: 50%;
+    margin: 5px 0;
 }
 
 /* footer */
 
-footer {
-    height: 50px;
+#footer {
+    
 }
 
 .social-networks {
     text-align: center;
-    background-color:#FF6917 ;
+    background-color:#FF6917;
+    
     
 }
 
 .social-networks > li {
     display: inline;
-    
+    font-weight: bold;
+    margin: 20px 50px 20px 50px;
 }
 
 .social-networks i {
     font-size: 150%;
-    margin: 2%;
+    margin: 1%;
     color: #004D73;
+   
 }
 
