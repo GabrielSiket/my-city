@@ -2,7 +2,6 @@
 
 * {
     margin: 0;
-    padding: 0;
     border: none;
     text-decoration: none;
 }
@@ -105,17 +104,31 @@ body {
 }
 
 #reason-one {
-    height: 120px;
-    width: 75%;
+    height: 500px;
+    width: 70%;
     float: left;
 }
 
-#img-one {
-    height: 120px;
+#teeth-img {
+    height: 200px;
     width: 25%;
     float: right;
     background: url(../images/healthy-teeth.jpg) no-repeat center center;
     background-size: cover;
+    border: 1px solid #004D73 ;
+    margin: 1%;
+    
+}
+
+#digestion-img {
+    height: 200px;
+    width: 25%;
+    float: right;
+    background: url(../images/digestion.jpg) no-repeat center center;
+    background-size:cover ;
+    border: 1px solid #004D73;
+    margin: 1%;
+   
 }
 
 hr {
@@ -124,17 +137,19 @@ hr {
     margin: 5px 0;
 }
 
+.reasons-list {
+    list-style-type:circle;
+}
+
 /* footer */
 
 #footer {
-    
+
 }
 
 .social-networks {
     text-align: center;
-    background-color:#FF6917;
-    
-    
+    background-color:#FF6917;    
 }
 
 .social-networks > li {
@@ -146,7 +161,6 @@ hr {
 .social-networks i {
     font-size: 150%;
     margin: 1%;
-    color: #004D73;
-   
+    color: #004D73;   
 }
 
