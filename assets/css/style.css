@@ -25,6 +25,14 @@ body {
 
 /* headings */
 
+h1 {
+    font-family: 'Updock', cursive, sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 250%;
+    margin: 1%;
+}
+
 
 
 /* navigation */
@@ -99,36 +107,62 @@ body {
 /* reasons */
 
 #reasons {
-    height: 600px;
-
+    height: 1200px;
 }
 
 #reason-one {
-    height: 500px;
     width: 70%;
     float: left;
+    font-family: 'Updock', cursive, sans-serif;
+    text-transform: capitalize;
+    font-size: 125%;
+
 }
 
-#teeth-img {
-    height: 200px;
+.reasons-list {
+    list-style-type:circle;
+    font-family: 'Anek Malayalam', sans-serif;
+}
+
+#image1 {
+    height: 250px;
     width: 25%;
     float: right;
-    background: url(../images/healthy-teeth.jpg) no-repeat center center;
+    background: url(../images/image1.jpg) no-repeat center center;
     background-size: cover;
     border: 1px solid #004D73 ;
-    margin: 1%;
+    margin: 0.5%;
     
 }
 
-#digestion-img {
-    height: 200px;
+#image2 {
+    height: 250px;
     width: 25%;
     float: right;
-    background: url(../images/digestion.jpg) no-repeat center center;
+    background: url(../images/image2.jpg) no-repeat center center;
     background-size:cover ;
     border: 1px solid #004D73;
-    margin: 1%;
-   
+    margin: 0.5%;
+}
+
+#image3 {
+    height: 250px;
+    width: 25%;
+    float: right;
+    background: url(../images/image3.jpg) no-repeat center center;
+    background-size:cover ;
+    border: 1px solid #004D73;
+    margin: 0.5%;
+}
+
+#image4 {
+    height: 250px;
+    width: 25%;
+    float: right;
+    background: url(../images/image4.jpg) no-repeat center center;
+    background-size:cover ;
+    border: 1px solid #004D73;
+    margin: 0.5%;
 }
 
 hr {
@@ -137,9 +171,9 @@ hr {
     margin: 5px 0;
 }
 
-.reasons-list {
-    list-style-type:circle;
-}
+
+
+
 
 /* footer */
 
