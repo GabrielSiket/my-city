@@ -4,13 +4,18 @@
 
 ## Feautures
 
-* Nav Bar
+* _Nav Bar_
 
-Featured on all four pages, the full responsive navigation bar includes links to the Home page, Menu, Gallery and Reservations page and is identical in each page to allow for easy navigation.
-This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+    * Featured on all four pages, the full responsive navigation bar includes links to the Home page, Menu, Gallery and Reservations page and is identical in each page to allow for easy navigation.
+    * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+    * Containing an eye catching animation to grab the users attention, when hovered over it changes its color from blue to orange.
 
-[logo]: assets/images/nav-bar-screenshot.png
-![nav bar][logo]
+![nav bar](assets/images/nav-bar.png)
+
+* _The landing page image_
+
+    * The landing includes an image with text overlay containing a quote about eating by François de la Rochefoucauld.
+
+![landing page](assets/images/italian-cuisine-2378729_1920.jpg)
 
 
-main image from https://pixabay.com/photos/italian-cuisine-pasta-vegetables-2378729/
