@@ -114,6 +114,15 @@ h1 {
     height: 1200px;
 }
 
+#reasons > h2 {
+    font-family: 'Updock', cursive, sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 250%;
+    margin: 1%;
+    color: #FF6917;
+}
+
 #reason-one {
     width: 70%;
     float: left;
