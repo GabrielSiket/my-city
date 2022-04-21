@@ -70,18 +70,18 @@ h1 {
 
 /* main image and cover text*/
 
-#main-image-text {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
 #image {
     height: 600px;
     width: 100%;
     background: url(../images/italian-cuisine-2378729_1920.jpg) no-repeat center center;
     background-size: cover;
+}
+
+#main-image-text {
+    
+    width: 100%;
+    overflow: hidden;
+    position: relative;
     
 }
 
@@ -93,6 +93,8 @@ h1 {
     left: 50px;
     position: absolute;
     background-color: rgba(206, 246, 255, 0.6);
+    
+    
 }
 
 #cover-text > h3 {
@@ -103,6 +105,7 @@ h1 {
     right: 50px;
     position: absolute;
     background-color: rgba(206, 246, 255, 0.6);
+    
 }
 
 /* reasons */
@@ -178,10 +181,6 @@ hr {
 
 /* footer */
 
-#footer {
-
-}
-
 .social-networks {
     text-align: center;
     background-color:#FF6917;    
@@ -190,7 +189,7 @@ hr {
 .social-networks > li {
     display: inline;
     font-weight: bold;
-    margin: 20px 50px 20px 50px;
+    margin: 15px;
 }
 
 .social-networks i {
@@ -201,25 +200,15 @@ hr {
 
 /*Menu Page*/
 
-#menu {
-    
+#menu {  
     width: 100%;
     overflow: hidden;
-    position: relative;
-    
-}
-
-#menu-image {
-    height: 1000px;
-    width: 100%;
-    background: url(../images/menu-background.jpg) no-repeat center center ;
-    background-size: cover;   
 }
 
 #menu > ul {
     width: 33%;
-    margin-left: 375px;
-    margin-top: 260px;
+    margin-left: 350px;
+    margin-top: 350px;
     position: absolute;
     color: #004D73;
     text-align: center;
@@ -240,6 +229,13 @@ hr {
     font-weight:bold;
 }
 
+#menu-image {
+    height: 1100px;
+    width: 100%;
+    background: url(../images/menu-background.jpg) no-repeat center center ;
+    background-size: cover;   
+}
+
 /* Contact Page*/
 
 
@@ -255,25 +251,25 @@ hr {
     background-color: rgba(0, 77, 115, 0.6);
     margin: 50px 300px;
     color: #fff;
-    max-width: 400px;
+    
     position: absolute;
-    left: 10%;
+    
     padding: 30px ;
     
 }
 
 .subject {
-    width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical
+    width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
-.signup-form > h2 {
+.contact-form > h2 {
     color: whitesmoke;
     margin-bottom: 20px;
 }
@@ -299,7 +295,7 @@ hr {
     text-align: center;
     font-size: 100%;
     background-color: #FF6917;
-    color: #fafafa;
+    color: whitesmoke;
     display: block;
 }
 
@@ -307,4 +303,84 @@ hr {
     color: #004D73;
     transition: 500ms linear;
     transform: scale(1.1);
+}
+
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+    #reasons {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #image1, #image2, #image3, #image4 {
+        display: none;
+    }
+
+    #logo {
+        width: 90%;
+        text-align: center;
+    }
+
+    #cover-text {
+        font-size: 100%;
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    #footer {
+        width: 100%;
+        font-size: 50%;
+        float: left;
+        margin: 0 auto; 
+    }
+
+    #menu-image {
+        display: none;
+    }
+
+    .menu-list > li {
+        color: whitesmoke;
+        text-shadow: 2px 2px 2px black ;
+        text-align: center;
+        margin-right: 15%;
+        
+    }
+
+    .menu-list > p {
+        color: whitesmoke;
+        text-shadow: 2px 2px 2px black ;
+        text-align: center;
+        margin-right: 15%;
+    }
+
+    #menu > ul {
+        position:relative;
+        width: 100%;
+        height: 1200px;
+        margin: 0 auto;
+        background: url(../images/menu-resposive-background.jpg) no-repeat center center;
+        background-size: cover;
+        
+    }
+
+    .form {
+        
+        margin: 50px auto;
+    }
+  
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    #navigation {
+        clear:left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
 }
