@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Anek Malayalam', sans-serif;
-    background-color: #CEF6FF;
+    background-color: whitesmoke;
     
 }
 
@@ -72,7 +72,7 @@ h1 {
 #image {
     height: 600px;
     width: 100%;
-    background: url(../images/italian-cuisine-2378729_1920.jpg) no-repeat center center;
+    background: url(../images/italian-cuisine.webp) no-repeat center center;
     background-size: cover;
 }
 
@@ -191,19 +191,20 @@ hr {
 
 .social-networks {
     text-align: center;
-    background-color:#FF6917;    
+    background-color:#00A1C5;    
 }
 
 .social-networks > li {
     display: inline;
     font-weight: bold;
-    margin: 15px;
+    margin: 10px;
 }
 
 .social-networks i {
     font-size: 150%;
     margin: 1%;
-    color: #004D73;   
+    color: #004D73;
+    padding: 5px;
 }
 
 /*Menu Page*/
