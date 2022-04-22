@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200&family=Updock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200&family=Roboto:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -19,13 +19,13 @@ body {
     font-size: 300%;
     text-align: center;
     float: none;
-    font-family: 'Updock', cursive, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* headings */
 
 h1 {
-    font-family: 'Updock', cursive, sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     text-transform: capitalize;
     font-size: 250%;
@@ -56,8 +56,8 @@ h1 {
     text-align: center;
     padding: 5px;
     text-decoration: none;
-    font-family: 'Updock', cursive, sans-serif;
-    font-size: 200%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 150%;
     font-weight: bold;
 }
 
@@ -85,22 +85,23 @@ h1 {
 }
 
 #cover-text {
-    font-size: 250%;
-    font-family: 'Updock', cursive, sans-serif;
+    font-size: 200%;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 4px;
     top: 50px;
-    left: 50px;
+   
     position: absolute;
     background-color: rgba(206, 246, 255, 0.6);
+    text-align: center;
     
     
 }
 
 #cover-text > h3 {
     font-size: 150%;
-    font-family: 'Updock', cursive, sans-serif;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 5px;
-    top: 100px;
+    top: 175px;
     right: 50px;
     position: absolute;
     background-color: rgba(206, 246, 255, 0.6);
@@ -114,7 +115,7 @@ h1 {
 }
 
 #reasons > h2 {
-    font-family: 'Updock', cursive, sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     text-transform: capitalize;
     font-size: 250%;
@@ -125,7 +126,7 @@ h1 {
 #reason-one {
     width: 70%;
     float: left;
-    font-family: 'Updock', cursive, sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
     font-size: 125%;
 
@@ -191,13 +192,14 @@ hr {
 
 .social-networks {
     text-align: center;
-    background-color:#00A1C5;    
+    background-color:#00A1C5;  
+     
 }
 
 .social-networks > li {
     display: inline;
     font-weight: bold;
-    margin: 10px;
+    
 }
 
 .social-networks i {
@@ -205,6 +207,7 @@ hr {
     margin: 1%;
     color: #004D73;
     padding: 5px;
+    
 }
 
 /*Menu Page*/
@@ -388,7 +391,7 @@ hr {
 
     #navigation {
         clear:left;
-        margin-left: 30px;
+        margin-left: 10px;
         margin-bottom: 20px;
         line-height: 25px;
     }
