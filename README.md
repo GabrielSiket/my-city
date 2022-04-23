@@ -2,6 +2,8 @@
 
 ## We offer most trendy and fast-growing cuisine concept focused on longevity – with mostly plant based menu and using principles of Blue Zones longevity, Nordic and Mediterranean diet. Concept is perfectly suited for people interested in health-longevity, fitness, vegan, vegetarian, organic, sustainable, green, keto food.
 
+![Am I Responsive](assets/images/responsive.png) 
+
 ## Feautures
 
 * _Nav Bar_
@@ -55,8 +57,17 @@
 
 * HTML
     * No errors were returned when passing through the official W3C validator
+
+![html check](assets/images/html-check.png)
+
 * CSS
     * No errors were found when passing through the official (Jigsaw) validator
+
+![css check](assets/images/css-check.png)
+
+* Lighthouse
+
+![lighthouse](assets/images/lighthouse.png)
 
 ## Deployment
 
