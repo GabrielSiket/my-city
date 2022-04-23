@@ -77,7 +77,7 @@ The live link can be found here - https://gabrielsiket.github.io/the-sun-kissed-
 
 * Media
 
-    * 
+    * The photos used on the home and sign up page are from https://www.pexels.com/
 
 
 
