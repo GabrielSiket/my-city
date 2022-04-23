@@ -33,6 +33,15 @@ h1 {
     color: #FF6917;
 }
 
+h4 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 250%;
+    margin: 1%;
+    color: whitesmoke;
+}
+
 
 
 /* navigation */
@@ -193,6 +202,7 @@ hr {
     text-align: center;
     background-color:#DFF8D5;
     color: #FF6E26; 
+    
      
 }
 
@@ -317,6 +327,39 @@ hr {
     transform: scale(1.1);
 }
 
+/* form */
+
+.confirm {
+    background-color: rgba(0, 77, 115, 0.6);
+}
+
+.confirm-txt {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .confirm-txt h4 {
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 2;
+    padding: 1em;
+  }
+  
+  .redirect {
+    width: 50%;
+    align-content: center;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .redirect h4 {
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 1.5;
+    padding: 2em;
+  }
+
 /* Media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
@@ -395,4 +438,15 @@ hr {
         margin-bottom: 20px;
         line-height: 25px;
     }
+
+    .redirect {
+        width: 75%;
+      }
+    
+      .redirect p {
+        font-weight: bold;
+        font-size: 1.5em;
+        line-height: 1.5;
+        padding: 2em;
+      }
 }
