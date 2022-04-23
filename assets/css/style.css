@@ -120,7 +120,7 @@ h1 {
     text-transform: capitalize;
     font-size: 250%;
     margin: 1%;
-    color: #FF6917;
+    color: #004D73 ;
 }
 
 #reason-one {
@@ -128,7 +128,7 @@ h1 {
     float: left;
     font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
-    font-size: 125%;
+    font-size: 100%;
 
 }
 
@@ -192,20 +192,21 @@ hr {
 
 .social-networks {
     text-align: center;
-    background-color:#00A1C5;  
+    background-color:#DFF8D5;
+    color: #FF6E26; 
      
 }
 
 .social-networks > li {
     display: inline;
     font-weight: bold;
+    margin-right: 10px;
     
 }
 
 .social-networks i {
-    font-size: 150%;
-    margin: 1%;
-    color: #004D73;
+    font-size: 100%;   
+    color: #FF6E26;
     padding: 5px;
     
 }
@@ -223,9 +224,9 @@ hr {
     margin-top: 350px;
     position: absolute;
     color: #004D73;
-    text-align: center;
-    
+    text-align: center;    
 }
+
 
 .menu-list {
     list-style-type: none;
