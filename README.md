@@ -18,7 +18,7 @@
 
     * The landing includes an image with text overlay containing a quote about eating by François de la Rochefoucauld.
 
-![landing page](assets/images/italian-cuisine.webp)
+![landing page](assets/images/italian-cuisine.jpg)
 
 * _The Reasons_ 
 
@@ -72,6 +72,8 @@
 * Lighthouse
 
 ![lighthouse](assets/images/lighthouse.png)
+
+* Recognized an issue regarding the fact that 'update readme file' commits are too generic. Improved commits makeing them more specific. 
 
 ## Deployment
 
