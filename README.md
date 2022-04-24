@@ -51,7 +51,11 @@
 
     * This page will allow the user to get in touch with us. The user will be able to fill in a text area and also to resize the text area. The user will be asked to submit their full name and email address.
 
-![Contact](assets/images/contact-us.png)
+![Contact](assets/images/contact-screenshot.png)
+
+* After submiting the contact form, a page will be displays to the user confirming that his message has been received, and he will be redirected to the Home page.
+
+![Confirmation](assets/images/redirect.png)
 
 ## Validator Testing
 
